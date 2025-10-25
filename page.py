@@ -28,5 +28,6 @@ class PageRequester:
 jokes=PageRequester("https://official-joke-api.appspot.com/random_joke")
 
 print(jokes.get())
+print(jokes.get_header)
 
 
